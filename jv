@@ -1,3 +1,4 @@
+#Please read the README.md file before using it.
 #Color Schemes
 Red='\033[1;31m'
 Purple='\033[1;35m'
@@ -11,7 +12,7 @@ Licensing()
 	echo -e "${Purple}"
 	echo -e "Greetings Sir.Thank You For Using Our Service.\nA copy of acknowledgement file will be created.Please preserve it.\n"
 	touch acknowledgement.txt
-	echo -e "run.sh or run is a product of Guava_Slice.\nYou are free to Modify or Redistribute it as you please but please\ngive due credits wherever necessary.\n\nCreated on:18 Jan 2021\t\t\t@author: Subhadeep Mandal\nLinkedin: linkedin.com/in/mandalsubhadeep\n" > acknowledgement.txt
+	echo -e "jv.sh or jv is a product of Guava_Slice.\nYou are free to Modify or Redistribute it as you please but please\ngive due credits wherever necessary.\n\nCreated on:18 Jan 2021\t\t\t@author: Subhadeep Mandal\nLinkedin: linkedin.com/in/mandalsubhadeep\n" > acknowledgement.txt
 	echo -e "${NoColor}"
 	cat acknowledgement.txt
 	fi
